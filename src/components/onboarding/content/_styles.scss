@@ -1,0 +1,29 @@
+.onboarding-content {
+  background-color: white;
+  position: relative;
+  min-height: 600px;
+  height: 100%;
+
+  .row {
+    height: 100%;
+  }
+
+  &__carousel {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .onboarding-content {
+    flex-wrap: nowrap;
+  }
+
+  .content-row {
+    order: 2;
+  }
+
+  .carousel-row {
+    order: 1;
+  }
+}

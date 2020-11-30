@@ -1,0 +1,35 @@
+.ic-modal {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  &__width {
+    width: 60%;
+    min-width: 60%;
+
+    @include media-breakpoint-down(md) {
+      width: 96%;
+      min-width: 96%;
+    }
+
+    .modal-content {
+      border: 0 !important;
+      padding: 0 15px 15px;
+    }
+
+    .tab-content {
+      max-height: calc(100vh - 200px);
+      overflow-y: scroll;
+      padding-left: 3px;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    margin-left: auto;
+
+    button {
+      margin-left: 1rem;
+    }
+  }
+}

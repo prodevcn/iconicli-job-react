@@ -1,0 +1,95 @@
+.menu-wrapper {
+  display: flex;
+  margin-left: auto;
+  background-color: white;
+  position: relative;
+  right: -15px;
+  padding-right: 15px;
+  max-width: 600px;
+
+  .input-group-text {
+    display: inline-block;
+    line-height: 0;
+    height: 34px;
+    border: 0;
+    background-color: $gray-2;
+  }
+
+  .input-group {
+    margin: 27px 20px 0 0;
+
+    input {
+      padding: 20px;
+      text-transform: uppercase;
+      box-shadow: none;
+
+      &:focus {
+        border: 1px solid $gray-2;
+      }
+    }
+  }
+
+  .input-group-append {
+    .input-group-text {
+      padding: 21px 10px;
+
+      svg {
+        margin: -7px 2px 0 0;
+        font-size: 14px;
+        color: $gray-3;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    display: block;
+    background-color: transparent;
+  }
+
+  @media only screen and (max-width: 780px) {
+    margin-top: 15px;
+    padding: 0;
+    max-width: 100%;
+    right: 0;
+
+    .input-group {
+      margin-top: 10px;
+    }
+  }
+}
+
+.menu {
+  transform: skewX(10deg) translateX(-17%);
+  display: flex;
+  justify-content: space-around;
+  padding: 7px;
+
+  a,
+  .logout {
+    transform: skewX(-10deg);
+    text-transform: uppercase;
+    color: white !important;
+    font-size: 14px;
+    padding: 27px 12px;
+    display: inline-block;
+  }
+
+  @include media-breakpoint-down(lg) {
+    transform: skewX(-3deg) translateX(0);
+  }
+
+  @media only screen and (max-width: 780px) {
+    transform: skewX(0) translateX(0);
+    padding-left: 15px;
+    padding-right: 15px;
+    left: -15px;
+    right: -15px;
+    width: 100vw;
+
+    a,
+    .logout {
+      padding: 0 12px;
+      display: inline;
+    }
+  }
+}

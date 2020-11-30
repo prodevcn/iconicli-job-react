@@ -1,0 +1,15 @@
+.social-links {
+  a {
+    &:hover {
+      svg {
+        color: white;
+      }
+    }
+  }
+
+  svg {
+    display: block;
+    margin-top: 30px;
+    color: $pink;
+  }
+}

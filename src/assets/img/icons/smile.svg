@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.3" height="8.83" viewBox="0 0 12.3 8.83">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__smile">
+        <g id="prefix__Group_971" data-name="Group 971" transform="translate(0 2.522)">
+            <g id="prefix__Group_970" data-name="Group 970">
+                <path id="prefix__Path_579" d="M87.227 246.473v.631H86.6a5.2 5.2 0 0 0 10.4-.157.315.315 0 0 1 .631 0 5.834 5.834 0 0 1-11.665.156h-.635v-.631z" class="prefix__cls-1" data-name="Path 579" transform="translate(-85.335 -246.473)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_973" data-name="Group 973" transform="translate(8.831)">
+            <g id="prefix__Group_972" data-name="Group 972">
+                <path id="prefix__Path_580" d="M170.983 170.668a.315.315 0 0 1 .315.315v1.892a.315.315 0 0 1-.631 0v-1.892a.315.315 0 0 1 .316-.315z" class="prefix__cls-1" data-name="Path 580" transform="translate(-170.668 -170.668)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_975" data-name="Group 975" transform="translate(5.992)">
+            <g id="prefix__Group_974" data-name="Group 974">
+                <path id="prefix__Path_581" d="M256.315 170.668a.315.315 0 0 1 .315.315v1.892a.315.315 0 1 1-.631 0v-1.892a.315.315 0 0 1 .316-.315z" class="prefix__cls-1" data-name="Path 581" transform="translate(-256 -170.668)"/>
+            </g>
+        </g>
+    </g>
+</svg>

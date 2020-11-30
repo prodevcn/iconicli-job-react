@@ -1,0 +1,35 @@
+.ic-hamburger-menu {
+  padding: 0;
+  width: 100%;
+
+  .navbar-nav,
+  .nav-bar__list {
+    width: 100%;
+  }
+
+  .nav-bar__list {
+    overflow: hidden;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    top: -2.2rem;
+    right: 1rem;
+    color: $primary;
+    border-color: $gray-3;
+    cursor: pointer;
+  }
+
+  .responsive-navbar-nav {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: $primary;
+    cursor: pointer;
+    display: none;
+
+    @media only screen and (max-width: 779px) {
+      display: block;
+    }
+  }
+}

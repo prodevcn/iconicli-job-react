@@ -1,0 +1,58 @@
+.ic-gallery {
+  &__modal {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__width {
+    width: 60%;
+    min-width: 60%;
+
+    @include media-breakpoint-down(sm) {
+      width: 96%;
+      min-width: 96%;
+    }
+
+    .modal-content {
+      border: 0 !important;
+    }
+  }
+
+  &__tab {
+    position: absolute;
+    top: -34px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.0625rem;
+    text-align: center;
+    padding: 9px 25px;
+    background-color: #464646;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+.image-gallery {
+  background: linear-gradient(to bottom, #464646 0%, #8b8b8b 100%);
+}
+
+.image-gallery-slides {
+  margin: 5% 20%;
+}
+
+.image-gallery-thumbnails {
+  overflow-y: scroll;
+}
+
+.image-gallery-thumbnails-wrapper {
+  margin: 0 5%;
+}
+
+.image-gallery-icon:hover {
+  color: $gray-3;
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  height: calc(100vh / 2);
+  display: inline-block;
+}

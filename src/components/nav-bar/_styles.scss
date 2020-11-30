@@ -1,0 +1,144 @@
+.nav-bar {
+  position: relative;
+
+  .logo {
+    color: $primary;
+
+    &__slogan {
+      display: none;
+    }
+  }
+
+  .active {
+    background-color: $primary;
+    color: white;
+
+    .badge {
+      background-color: $gray-2;
+      color: $primary;
+    }
+  }
+
+  &__list {
+    li {
+      position: relative;
+    }
+
+    .badge {
+      font-size: 13px;
+      padding: 3px 9px;
+      background-color: $primary;
+      color: white;
+    }
+
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+
+    li {
+      line-height: 40px;
+      margin-bottom: 27px;
+
+      a {
+        transform: skewX(3deg) translateX(0);
+        width: 100%;
+        display: inline-block;
+      }
+    }
+
+    .badge {
+      position: absolute;
+      right: 30px;
+      top: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 780px) {
+    flex: 0 0 270px;
+    height: 100vh;
+    min-height: 600px;
+    transform: skewX(-3deg) translateX(-8%);
+    background-color: white;
+
+    .logo {
+      padding: 45px 0 40px;
+      text-align: center;
+      border-bottom: 1px solid $pink-light;
+
+      h2 {
+        font-weight: normal;
+        font-size: 30px;
+        margin-bottom: 0;
+        transform: skewX(3deg) translateX(0);
+      }
+    }
+  }
+
+  .social-links {
+    transform: skewX(3deg) translateX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    color: $primary;
+    display: block;
+    text-align: center;
+    padding: 13px 0 0 60px;
+    border-top: 1px solid $primary;
+
+    a {
+      display: inline-block;
+      margin: 25px 20px;
+      line-height: 1rem;
+    }
+
+    svg {
+      margin-top: 0;
+    }
+  }
+
+  @media only screen and (max-width: 779px) {
+    background-color: white;
+
+    flex: 0 0 100%;
+
+    .logo,
+    ul,
+    li {
+      display: block;
+    }
+
+    .logo {
+      margin-left: 15px;
+    }
+
+    .social-links {
+      display: none;
+    }
+
+    &__list {
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid $primary;
+
+      li {
+        margin-bottom: 0;
+        border-bottom: 1px solid $primary;
+      }
+    }
+  }
+
+  .social-links {
+    a {
+      display: inline-block;
+
+      &:hover {
+        svg {
+          color: red;
+        }
+      }
+    }
+  }
+}

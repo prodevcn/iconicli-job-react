@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Path_570" d="M90 45A45 45 0 0 1 .522 51.88 45.512 45.512 0 0 1 0 45.1V45A45.02 45.02 0 0 1 64.288 4.331q1.634.777 3.2 1.68A44.957 44.957 0 0 1 90 45zm0 0" data-name="Path 570" transform="translate(939 2562)" style="fill:#fff"/>
+        </clipPath>
+        <style>
+            .prefix__cls-3{fill:#ff929c}
+        </style>
+    </defs>
+    <g id="prefix__Mask_Group_11" data-name="Mask Group 11" transform="translate(-939 -2562)">
+        <g id="prefix__user_2_" data-name="user (2)" transform="translate(942 2571.223)">
+            <circle id="prefix__Ellipse_64" cx="18.987" cy="18.987" r="18.987" class="prefix__cls-3" data-name="Ellipse 64" transform="translate(22.6 3)"/>
+            <path id="prefix__Path_639" d="M41.587 52.174A34.413 34.413 0 0 0 7.174 86.587H76a34.413 34.413 0 0 0-34.413-34.413z" class="prefix__cls-3" data-name="Path 639" transform="translate(0 -6.034)"/>
+        </g>
+    </g>
+</svg>

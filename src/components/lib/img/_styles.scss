@@ -1,0 +1,32 @@
+.ic-image {
+  border: 8px solid white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  svg {
+    position: absolute;
+    width: 50% !important;
+    height: 50% !important;
+    color: $primary;
+  }
+
+  &__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}

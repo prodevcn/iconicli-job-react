@@ -1,0 +1,95 @@
+.confirm {
+  p {
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  &__subtitle-extra {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 5%;
+  }
+
+  &__button {
+    button {
+      position: relative;
+      background-color: white;
+      border-color: white;
+      color: $primary !important;
+      margin-top: 0.5rem;
+      padding: 0.5rem 3.5rem;
+      font-size: 1rem;
+      border-radius: 12px;
+
+      &:hover {
+        color: white !important;
+      }
+    }
+
+    svg {
+      position: absolute;
+      right: 1rem;
+      top: 0.5rem;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    &__subtitle-extra {
+      font-size: $px30;
+      line-height: $px50;
+    }
+    .double-text__shadow {
+      top: -3px;
+      margin-left: 4px;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    &__subtitle-extra {
+      font-size: $px30;
+      line-height: $px50;
+    }
+
+    &__subtitle-text {
+      font-size: $px20;
+      line-height: $px50;
+    }
+
+    .double-text__shadow {
+      top: -2px;
+      margin-left: 3px;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .double-text {
+      font-size: 30px;
+    }
+    .double-text__shadow {
+      top: -2px;
+      margin-left: 3px;
+      -webkit-text-stroke: 1px white;
+    }
+    &__subtitle-extra {
+      font-size: $px20;
+      line-height: $px50;
+    }
+
+    &__text {
+      font-size: $px13;
+      line-height: 1rem;
+    }
+
+    button {
+      margin-top: 0.5rem;
+      padding: 0.5rem 2rem;
+      font-size: $px12;
+    }
+  }
+}
+
+.logout {
+  cursor: pointer;
+}

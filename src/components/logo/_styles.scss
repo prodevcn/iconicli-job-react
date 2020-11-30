@@ -1,0 +1,10 @@
+.logo {
+  color: white;
+
+  &__slogan {
+    font-size: $px13;
+    letter-spacing: 0.2px;
+    position: relative;
+    top: -$px5;
+  }
+}

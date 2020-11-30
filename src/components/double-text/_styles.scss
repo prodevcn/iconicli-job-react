@@ -1,0 +1,38 @@
+.double-text {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  font-size: 96px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+
+  &__main {
+    color: white;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+  &__shadow {
+    position: absolute;
+    z-index: 0;
+    top: -3px;
+    left: auto;
+    margin-left: 3px;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    display: flex;
+  }
+
+  @include media-breakpoint-up(lg) {
+    left: 7px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    font-size: 70px;
+  }
+}

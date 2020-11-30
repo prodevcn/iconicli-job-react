@@ -1,0 +1,7 @@
+.stars {
+  color: $gray-3;
+
+  &__active {
+    color: $primary !important;
+  }
+}

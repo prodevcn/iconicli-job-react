@@ -1,0 +1,178 @@
+.edit-profile {
+  &__title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &__button {
+    padding: 24px 15px 7px;
+  }
+
+  &__image {
+    padding-right: 0;
+    padding-bottom: 15px;
+    min-height: calc(100vh / 2);
+  }
+
+  &__thumbnails {
+    min-height: 400px;
+
+    div {
+      padding-right: 0;
+      margin-bottom: 15px;
+      min-height: calc(100vh / 4);
+    }
+  }
+
+  &__bookings {
+    text-transform: uppercase;
+    color: $primary;
+
+    b {
+      font-weight: normal;
+      color: $gray-3;
+    }
+
+    li:nth-child(n + 5) {
+      display: none;
+    }
+
+    &-more {
+      li:nth-child(n + 5) {
+        display: block;
+      }
+    }
+  }
+}
+
+.stars,
+.edit-profile__bookings,
+.show-more__btn {
+  @include media-breakpoint-up(md) {
+    margin-left: 1rem;
+  }
+}
+
+.show-more__btn {
+  text-transform: uppercase;
+  color: $gray-3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.edit-profile__bookins-list {
+  .stars {
+    margin-bottom: 2rem;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .tag {
+    display: inline-block !important;
+    margin-right: 10px;
+  }
+}
+
+.model-booking {
+  .row {
+    margin-bottom: 10px;
+  }
+
+  .dropdown {
+    width: 90%;
+    margin-right: 2%;
+
+    .btn {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+
+  .form-label {
+    display: block;
+    text-transform: uppercase;
+  }
+
+  .form-group {
+    width: 50%;
+
+    .btn-light {
+      margin-left: 2px;
+    }
+  }
+
+  .tag {
+    height: 30px;
+    margin: 5px 10px;
+    display: inline-block;
+  }
+
+  .direction-column {
+    .form-group {
+      width: 100%;
+    }
+
+    input {
+      width: 90%;
+
+      @include media-breakpoint-down(md) {
+        width: 50%;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .direction-column {
+      margin-left: 5px;
+      width: 50%;
+    }
+  }
+}
+
+.portfolio,
+.profile {
+  .ic-image {
+    & > div {
+      border: 1px solid $gray-2;
+      border-radius: 10px;
+      padding: 5px;
+      box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+      min-height: 160px;
+    }
+  }
+
+  .thumbnails-text {
+    font-size: 9px;
+    line-height: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    bottom: -70px;
+    padding: 1rem;
+    color: $gray-3;
+  }
+}
+
+.profile {
+  .edit-profile__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thumbnails-text {
+    bottom: -100px;
+    padding: auto 20%;
+  }
+
+  @include media-breakpoint-up(sm) {
+    .ic-image {
+      width: 40%;
+      margin: auto 30%;
+    }
+  }
+}

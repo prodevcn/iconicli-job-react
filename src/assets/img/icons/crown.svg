@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_570" data-name="Path 570" d="M90,45A45,45,0,0,1,.522,51.88,45.512,45.512,0,0,1,0,45.1V45A45.02,45.02,0,0,1,64.288,4.331q1.634.777,3.2,1.68A44.957,44.957,0,0,1,90,45Zm0,0" transform="translate(939 2562)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1088" data-name="Group 1088" transform="translate(-884 -7711)">
+    <circle id="Ellipse_65" data-name="Ellipse 65" cx="45" cy="45" r="45" transform="translate(939 7766)" fill="#fff"/>
+    <g id="crown" transform="matrix(0.978, 0.208, -0.208, 0.978, 988.559, 7670.813)">
+      <path id="Path_636" data-name="Path 636" d="M40.749,89a3.7,3.7,0,0,0-3.7,3.7,3.665,3.665,0,0,0,.185,1.143l-3,1.91a4.631,4.631,0,0,1-6.072-.972l-2.945-3.6A3.662,3.662,0,0,0,25.931,89a3.7,3.7,0,1,0-7.409,0,3.662,3.662,0,0,0,.722,2.182l-2.945,3.6a4.631,4.631,0,0,1-6.07.972l-3.006-1.91A3.66,3.66,0,0,0,7.409,92.7a3.7,3.7,0,1,0-4.029,3.69L5.57,109.527a.926.926,0,0,0,.913.774H37.971a.926.926,0,0,0,.913-.774l2.189-13.132A3.7,3.7,0,0,0,40.749,89Z" transform="translate(0 0)" fill="#ffc107"/>
+      <ellipse id="Ellipse_62" data-name="Ellipse 62" cx="15.744" cy="4.631" rx="15.744" ry="4.631" transform="translate(6.483 104.744)" fill="#ffa000"/>
+      <path id="Path_637" data-name="Path 637" d="M80.67,309.742c-8.285,0-16.67-1.908-16.67-5.557s8.385-5.557,16.67-5.557,16.67,1.908,16.67,5.557S88.955,309.742,80.67,309.742Zm0-9.261c-9.728,0-14.818,2.408-14.818,3.7s5.09,3.7,14.818,3.7,14.818-2.408,14.818-3.7S90.4,300.481,80.67,300.481Z" transform="translate(-58.443 -194.811)" fill="#ffd54f"/>
+    </g>
+    <g id="Mask_Group_11" data-name="Mask Group 11" transform="translate(0 5204)" clip-path="url(#clip-path)">
+      <g id="user_2_" data-name="user (2)" transform="translate(942 2571.223)">
+        <circle id="Ellipse_64" data-name="Ellipse 64" cx="18.987" cy="18.987" r="18.987" transform="translate(22.6 3)" fill="#ff929c"/>
+        <path id="Path_639" data-name="Path 639" d="M41.587,52.174A34.413,34.413,0,0,0,7.174,86.587H76A34.413,34.413,0,0,0,41.587,52.174Z" transform="translate(0 -6.034)" fill="#ff929c"/>
+      </g>
+    </g>
+    <text id="YOU" transform="translate(984 7842)" fill="#fff" font-size="12" font-family="DMSans-Regular, DM Sans" letter-spacing="0.086em"><tspan x="-12.852" y="0">YOU</tspan></text>
+  </g>
+</svg>

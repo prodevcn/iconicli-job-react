@@ -1,0 +1,33 @@
+.congratulation {
+  background-color: $primary;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+
+  .logo {
+    position: absolute;
+    top: 30px;
+    margin-left: -84px;
+
+    h2 {
+      font-size: 52px;
+      font-weight: normal;
+    }
+
+    &__slogan {
+      display: none;
+    }
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .double-text__shadow {
+    top: -5px;
+    margin-left: 5px;
+  }
+}

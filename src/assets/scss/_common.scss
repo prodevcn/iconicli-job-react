@@ -1,0 +1,75 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: $font-family;
+  line-height: 1rem;
+  background-color: $gray-4;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.error {
+  color: red;
+  padding: $px5 $px5 0;
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.disabled {
+  position: relative;
+
+  &::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background-color: white;
+    opacity: 0.5;
+  }
+}
+
+.switch-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.sub-text {
+  color: $gray-3;
+}
+
+.direction-column {
+  flex-direction: column;
+}

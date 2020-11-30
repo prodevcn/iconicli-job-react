@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__tag" width="90" height="90" viewBox="0 0 90 90">
+    <path id="prefix__Path_570" d="M90 45A45 45 0 0 1 .522 51.88 45.512 45.512 0 0 1 0 45.1V45A45.02 45.02 0 0 1 64.288 4.331q1.634.777 3.2 1.68A44.957 44.957 0 0 1 90 45zm0 0" data-name="Path 570" style="fill:#fff"/>
+    <path id="prefix__Path_571" d="M77.829 61.355L77.1 48.4l-.769-13.8v-.057a7.113 7.113 0 0 0-6.7-6.709l-2.348-.134-2.392-.134-9.1-.514-12.941-.729a5.293 5.293 0 0 0-4.05 1.548L0 66.726A45.508 45.508 0 0 0 .52 73.5a44.97 44.97 0 0 0 31.538 36.2l44.225-44.29a5.306 5.306 0 0 0 1.546-4.055zM65.334 49.219a7.336 7.336 0 1 1 0-10.384 7.324 7.324 0 0 1 0 10.384zm0 0" data-name="Path 571" transform="translate(0 -21.598)" style="fill:#e0d4d4"/>
+    <path id="prefix__Path_572" d="M88.036 42.541l-.778-13.871a7.124 7.124 0 0 0-6.713-6.713l-4.745-.266-9.123-.513-12.963-.729A5.316 5.316 0 0 0 49.653 22L2.969 68.682a44.99 44.99 0 0 0 37.563 37.563L87.215 59.56a5.318 5.318 0 0 0 1.549-4.06zm-11.793.818a7.346 7.346 0 1 1 0-10.39 7.346 7.346 0 0 1 0 10.39zm0 0" data-name="Path 572" transform="translate(-2.437 -16.777)" style="fill:#ff929c"/>
+    <text id="prefix__FREE" transform="rotate(-44.03 110.378 12.46)" style="font-size:25px;font-family:SegoeUI-Bold,Segoe UI;font-weight:700;letter-spacing:.086em;fill:#fff">
+        <tspan x="0" y="0">FREE</tspan>
+    </text>
+</svg>

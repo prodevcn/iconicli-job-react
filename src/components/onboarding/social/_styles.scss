@@ -1,0 +1,17 @@
+.onboarding-social {
+  display: inline-block;
+
+  &__facebook {
+    button {
+      background-color: #45619d;
+      color: white;
+      border: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      font-size: 18px;
+      position: relative;
+      bottom: -3px;
+    }
+  }
+}

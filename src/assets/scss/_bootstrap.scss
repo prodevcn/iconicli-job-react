@@ -1,0 +1,196 @@
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/* Buttons
+----------------------------------------*/
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 0.73px;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+
+.btn-icon {
+  svg {
+    position: relative;
+    left: -10px;
+  }
+}
+
+.btn-sm {
+  box-shadow: none;
+}
+
+.btn-primary {
+  color: white !important;
+}
+
+.btn-secondary {
+  background-color: $gray-1 !important;
+  border-color: $gray-1 !important;
+}
+
+/* Img thumbnail
+----------------------------------------*/
+.img-thumbnail {
+  padding: $px12;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Badge
+----------------------------------------*/
+.badge-primary {
+  color: white;
+}
+
+.badge-light {
+  color: $primary;
+}
+
+/* Dropdown
+----------------------------------------*/
+.dropdown {
+  button.btn {
+    margin-right: 0;
+  }
+  .dropdown-menu {
+    transform: 0;
+    width: 100%;
+  }
+  .dropdown-item {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .dropdown-toggle-split {
+    max-width: 40px;
+  }
+}
+
+/* Accordion
+----------------------------------------*/
+.ic-accordion {
+  width: 100%;
+  text-align: center;
+
+  .collapse {
+    background-color: white;
+    text-align: left;
+    border-radius: 0 0 0.625rem 0.625rem;
+  }
+  &__button {
+    border-radius: 0 0 0.625rem 0.625rem;
+  }
+}
+
+/* Nav
+----------------------------------------*/
+.menu-tabs {
+  background-color: $gray-1;
+  border-radius: 0.625rem;
+
+  .nav-link {
+    padding: $px12;
+  }
+
+  a {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .active {
+    background-color: white !important;
+    color: $primary !important;
+  }
+}
+
+.popup-tabs {
+  position: relative;
+  top: -31px;
+  left: -15px;
+  border: 0;
+  text-transform: uppercase;
+
+  @include media-breakpoint-down(md) {
+    a {
+      font-size: 8px;
+    }
+  }
+
+  a {
+    color: white;
+    border: 0 !important;
+    background-color: $primary;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+
+    &:hover {
+      border: 0;
+    }
+  }
+
+  .active {
+    background-color: white;
+    color: $gray-3;
+  }
+}
+
+/* Modal
+----------------------------------------*/
+.modal-content {
+  border: 0 !important;
+}
+
+/* Tag
+----------------------------------------*/
+.tag {
+  position: relative;
+  background-color: $primary;
+  color: white;
+  font-size: $px13;
+  padding: $px7;
+
+  &__close {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    font-size: 14px;
+    width: 14px !important;
+    padding: 2px;
+    border-radius: 9px;
+  }
+}
+
+/* Forms
+----------------------------------------*/
+.form-control {
+  background-color: $gray-2;
+  border-color: $gray-2;
+}
+
+/* Datepicker
+----------------------------------------*/
+.react-datepicker__triangle {
+  display: none !important;
+}
+.react-datepicker {
+  border-radius: 0 !important;
+  border-color: $gray-2 !important;
+}
+.react-datepicker__header {
+  background: none !important;
+}
+.react-datepicker__day--selected {
+  background-color: $primary !important;
+  border-radius: 0;
+}
